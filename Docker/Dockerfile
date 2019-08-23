@@ -12,5 +12,6 @@ hpx-devel \
 cmake \
 blaze-devel \ 
 vtk-devel \
-yaml-cpp-devel 
-
+yaml-cpp-devel \
+doxygen \
+graphviz 
