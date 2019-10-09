@@ -18,7 +18,7 @@ graphviz \
 git 
 
 # Install build tools
-RUN dnf install @development-tools
+RUN dnf install @development-tools -y
  
 # Install BlazeIterative
 run git clone https://github.com/STEllAR-GROUP/BlazeIterative.git &&  \
