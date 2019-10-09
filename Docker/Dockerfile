@@ -17,7 +17,10 @@ doxygen \
 graphviz \
 git 
 
-#Install BlazeIterative
+# Install build tools
+RUN dnf install @development-tools
+ 
+# Install BlazeIterative
 run git clone https://github.com/STEllAR-GROUP/BlazeIterative.git &&  \
 cd BlazeIterative &&  \
 cmake . && \
