@@ -14,7 +14,8 @@ blaze-devel \
 vtk-devel \
 yaml-cpp-devel \
 doxygen \
-graphviz 
+graphviz \
+git 
 
 #Install BlazeIterative
 run git clone https://github.com/STEllAR-GROUP/BlazeIterative.git \
