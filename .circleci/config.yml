@@ -26,4 +26,7 @@ jobs:
                     if [ "${CIRCLE_BRANCH}" == "master" ]; then
                         docker login -u "$DOCKER_USER" -p "$DOCKER_PASS"
                         docker push ${IMAGE_NAME}
+                        docker login docker.pkg.github.com --username diehlpk
+                        docker tag ${IMAGE_NAME} docker.pkg.github.com/nonlocalmodels/buildinfrastructure/nonlocalmodels:baseimage
+                        docker push docker.pkg.github.com/nonlocalmodels/buildinfrastructure/nonlocalmodels:baseimage
                     fi
