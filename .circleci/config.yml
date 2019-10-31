@@ -14,8 +14,6 @@ jobs:
             IMAGE_NAME: diehlpk/nonlocalmodels:baseimage
         steps:
             - checkout
-            - setup_remote_docker:
-                docker_layer_caching: true
             - run:
                 name: Building Docker Image
                 command: |
