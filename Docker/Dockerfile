@@ -16,7 +16,7 @@ yaml-cpp-devel \
 doxygen \
 graphviz \
 git \
-libXext
+libXext-devel
 
 # Install build tools
 RUN dnf install @development-tools -y
