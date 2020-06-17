@@ -15,7 +15,8 @@ vtk-devel \
 yaml-cpp-devel \
 doxygen \
 graphviz \
-git 
+git \
+libXext
 
 # Install build tools
 RUN dnf install @development-tools -y
