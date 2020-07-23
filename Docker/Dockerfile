@@ -16,7 +16,9 @@ yaml-cpp-devel \
 doxygen \
 graphviz \
 git \
-libXext-devel
+libXext-devel \
+gmsh-devel \
+metis-devel 
 
 # Install build tools
 RUN dnf install @development-tools -y
