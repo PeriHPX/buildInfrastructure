@@ -24,9 +24,12 @@ metis-devel
 RUN dnf install @development-tools -y
  
 # Install BlazeIterative
-run git clone https://github.com/STEllAR-GROUP/BlazeIterative.git &&  \
+RUN git clone https://github.com/STEllAR-GROUP/BlazeIterative.git &&  \
 cd BlazeIterative &&  \
 cmake . && \
 make install && \
 cd .. && \
 rm -rf BlazeIterative
+
+# Install 
+RUN pip install --user cpp-coveralls
