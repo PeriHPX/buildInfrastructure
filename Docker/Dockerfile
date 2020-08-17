@@ -32,4 +32,4 @@ cd .. && \
 rm -rf BlazeIterative
 
 # Install 
-RUN pip install --user cpp-coveralls
+RUN pip install cpp-coveralls
