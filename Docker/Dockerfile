@@ -18,7 +18,8 @@ graphviz \
 git \
 libXext-devel \
 gmsh-devel \
-metis-devel 
+metis-devel \
+gcovr
 
 # Install build tools
 RUN dnf install @development-tools -y
