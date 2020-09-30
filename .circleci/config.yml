@@ -7,14 +7,13 @@
 version: 2
 jobs:
     build:
-        docker:
-            - image: docker:17.05.0-ce-git
+        machine:
+            image: ubuntu-2004:202008-01
         environment:
             IMAGE_FOLDER_NAME: Docker
             IMAGE_NAME: diehlpk/nonlocalmodels:baseimage
         steps:
             - checkout
-            - setup_remote_docker
             - run:
                 name: Building Docker Image
                 command: |
