@@ -19,7 +19,8 @@ git \
 libXext-devel \
 gmsh-devel \
 metis-devel \
-gcovr
+gcovr \
+python3
 
 # Install build tools
 RUN dnf install @development-tools -y
