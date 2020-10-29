@@ -19,8 +19,7 @@ git \
 libXext-devel \
 gmsh-devel \
 metis-devel \
-gcovr \
-python3
+gcovr 
 
 # Install build tools
 RUN dnf install @development-tools -y
@@ -34,4 +33,4 @@ cd .. && \
 rm -rf BlazeIterative
 
 # Install 
-RUN pip install cpp-coveralls
+RUN python -m pip install cpp-coveralls
