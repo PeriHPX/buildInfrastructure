@@ -20,7 +20,8 @@ libXext-devel \
 gmsh-devel \
 metis-devel \
 gcovr \
-python3
+python3 \
+python3-pip
 
 # Install build tools
 RUN dnf install @development-tools -y
