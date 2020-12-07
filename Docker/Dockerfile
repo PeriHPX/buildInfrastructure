@@ -23,7 +23,8 @@ gcovr \
 python3 \
 python3-pip \
 gmsh-devel \
-rpm-build
+rpm-build \
+pcl-devel
 
 # Install build tools
 RUN dnf install @development-tools -y
