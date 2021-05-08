@@ -1,6 +1,6 @@
-# Docker images for the continiuos testing [![CircleCI](https://circleci.com/gh/nonlocalmodels/buildInfrastructure.svg?style=svg)](https://circleci.com/gh/nonlocalmodels/buildInfrastructure)
+# Docker images for the continiuos testing [![CircleCI](https://circleci.com/gh/perihpx/buildInfrastructure.svg?style=svg)](https://circleci.com/gh/perihpx/buildInfrastructure)
 
 Please find the Docker images here
 
-* [Dockerhub](https://hub.docker.com/r/diehlpk/nonlocalmodels)
-* [Github](https://github.com/nonlocalmodels/buildInfrastructure/packages/47414)
+* [Dockerhub](https://hub.docker.com/repository/docker/perihpx/perihpx)
+* [Github](https://github.com/PeriHPX/buildInfrastructure/packages/778369)
