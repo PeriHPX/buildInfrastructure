@@ -11,7 +11,7 @@ jobs:
             image: ubuntu-2004:202008-01
         environment:
             IMAGE_FOLDER_NAME: Docker
-            IMAGE_NAME: diehlpk/nonlocalmodels:baseimage
+            IMAGE_NAME: perihpx/perihpx:baseimage
         steps:
             - checkout
             - run:
@@ -25,6 +25,6 @@ jobs:
                         docker login -u "$DOCKER_USER" -p "$DOCKER_PASS"
                         docker push ${IMAGE_NAME}
                         docker login docker.pkg.github.com --username diehlpk -p ${TOKEN}
-                        docker tag ${IMAGE_NAME} docker.pkg.github.com/nonlocalmodels/buildinfrastructure/nonlocalmodels:baseimage
-                        docker push docker.pkg.github.com/nonlocalmodels/buildinfrastructure/nonlocalmodels:baseimage
+                        docker tag ${IMAGE_NAME} docker.pkg.github.com/perihpx/buildinfrastructure/perihpx:baseimage
+                        docker push docker.pkg.github.com/perihpx/buildinfrastructure/perihpx:baseimage
                     fi
