@@ -6,7 +6,6 @@
 FROM fedora:35
 MAINTAINER Patrick Diehl <patrickdiehl@lsu.edu>
 # install dependencies
-RUN dnf update --refresh
 RUN dnf update -y
 RUN dnf install -y \ 
 hpx-devel \
