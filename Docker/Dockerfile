@@ -19,7 +19,7 @@ git \
 libXext-devel \
 gmsh-devel \
 metis-devel \
-gcovr \
+lcov \
 python3 \
 python3-pip \
 gmsh-devel \
@@ -36,5 +36,3 @@ make install && \
 cd .. && \
 rm -rf BlazeIterative
 
-# Install 
-RUN python3 -m pip install cpp-coveralls
